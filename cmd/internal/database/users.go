@@ -3,7 +3,7 @@ package database
 import "database/sql"
 
 type UserModel struct {
-	DB *sql.db
+	DB *sql.DB
 }
 
 type User struct {
